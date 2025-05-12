@@ -59,6 +59,26 @@
         font-weight: 400;
     }
 
+    ul {
+        padding: 30px 0;
+    }
+
+    ul li {
+        list-style-type: none;
+        padding: 20px 0;
+    }
+
+    input[type="text"] {
+        width: 55%;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        color: #111235;
+        font-weight: 400px;
+        font-family: "Agdasima", sans-serif;
+        background: url(https://assets.codepen.io/6060109/icon-send.png) white 95% 50% no-repeat;
+    }
+
     .header-bold{
         font-weight: 700;
     }
@@ -131,6 +151,34 @@
     .panel-purple {
         background: rgba(114, 122, 239, 0.1);
     }
+
+    .footer-icons {
+        display: flex;
+        justify-content: space-between;
+        margin: 25px auto;
+        width: 45%;
+        
+    }
+
+    .icon-circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(128, 173, 245, 0.2);
+        height: 32px;
+        width: 32px;
+        border-radius: 50%;
+    }
+
+    .icon-circle > img {
+        width: 55%;
+    }
+
+    #xopright {
+        margin: 60px 0;
+    }
+
+    
     /* Modifier Classes -- single style*/
 
     .tp-80 {
@@ -141,8 +189,16 @@
         padding-bottom: 100px;
     }
 
+    .mb-15 {
+        margin-bottom: 15px;
+    }
+
     .mb-40 {
         margin-bottom: 40px;
+    }
+
+    .border-bottom {
+        border-bottom: 1px solid black;
     }
   
     </style>
@@ -186,7 +242,7 @@
 
     <div class="bp-100"></div>
 
-    <div class="content-section-container">
+    <div class="content-section-container border-bottom">
         <img src="https://assets.codepen.io/6060109/workout-vector-3.png" alt="">
         <h2 class="mb-40"><span class="header-bold">The benefits</span> of exercise</h2>
         <div class="panel panel-blue">
@@ -210,6 +266,41 @@
         </div>
 
         <a class="btn btn-primary" href="#">Get now</a>
+    </div>
+
+    <div class="content-section-container text-centered panel-blue">
+        <h3>Max<span class="header-bold">Strong</span></h3>
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact</li>
+            <li>Our trainings</li>
+            <li>Price</li>
+            <li>FAQ</li>
+        </ul>
+        <h6 class="mb-15 "><span class="header-bold">Stay up to date</span></h6>
+        <input type="text" placeholder="Your email address">
+
+    <div class="footer-icons">
+        <div class="icon-circle">
+            <img src="https://assets.codepen.io/6060109/icon-instagram.png" alt="">
+        </div>
+
+        <div class="icon-circle">
+            <img src="https://assets.codepen.io/6060109/icon-dribbble.png" alt="">
+        </div>
+
+        <div class="icon-circle">
+            <img src="https://assets.codepen.io/6060109/icon-twitter.png" alt="">
+        </div>
+
+        <div class="icon-circle">
+            <img src="https://assets.codepen.io/6060109/icon-youtube.png" alt="">
+        </div>
+    </div>
+
+        <p id="copright">&copy Copyright &copy  2025 MaxStrong</p>
+        
     </div>
      
 
