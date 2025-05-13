@@ -20,3 +20,18 @@
 <h3>Fifth Section:</h3>
 
 ![fifthSectionMobile](https://github.com/user-attachments/assets/65504d7c-00eb-4e0b-a940-191a0192abf9)
+
+
+<h2>Desktop Version</h2>
+<h3>Section One and Two:</h3>
+
+![sectionOneTwoDesktop](https://github.com/user-attachments/assets/37e0e726-1460-49e5-99fa-397fcf6a6c3d)
+
+
+<h3>Section Three:</h3>
+
+![sectionThreeDesktop](https://github.com/user-attachments/assets/aeb562b1-0a72-4d5c-aefd-820b1685a50d)
+
+<h3>Section Four and Five:</h3>
+
+![sectionFourFiveDesktop](https://github.com/user-attachments/assets/996e7a21-cbba-43a7-9dda-aa753902248d)
