@@ -4,237 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
    
-    <style>
-    * {
-        margin: 0;
-    }
-
-    body {
-        min-width: 100%;
-        min-height: 100vh;
-        font-family: "Agdasima", sans-serif;
-    }
-
-    h1, h2, h3, h5, h6 {
-        font-weight: 500;
-        color: #111235;
-    }
-
-    h1 {
-        font-size: 64px;
-        line-height: 65px;
-        margin: 20px 0;
-    }
-
-    h2 {
-        font-size: 48px;
-        margin-bottom: 15px;
-    }
-
-    h3 {
-        
-        font-size: 32px;
-    }
-
-    h5 {
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 28.8px;
-        margin-bottom: 15px;
-    }
-
-    h6 {
-        font-size: 18px;
-        margin: 0 0 40px;
-    }
-
-    p {
-        line-height: 24px;
-        font-size: 16px;
-        font-weight: 400;
-    }
-
-    ul {
-        padding: 30px 0;
-    }
-
-    ul li {
-        list-style-type: none;
-        padding: 20px 0;
-    }
-
-    input[type="text"] {
-        width: 55%;
-        border: none;
-        border-radius: 5px;
-        padding: 10px;
-        color: #111235;
-        font-weight: 400px;
-        font-family: "Agdasima", sans-serif;
-        background: url(https://assets.codepen.io/6060109/icon-send.png) white 95% 50% no-repeat;
-    }
-
-    .header-bold{
-        font-weight: 700;
-    }
-
-    .top-bar{
-        height: 75px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.4);
-    }
-
-    .content-section-container{
-        padding: 30px 16px ;
-    }
-
-    .text-centered {
-        text-align: center;
-    }
-
-    .content-section-container img {
-        width: 100%;
-    }
-
-    .btn {
-        text-decoration: none;
-        text-align: center;
-        display: block;
-        margin: 25px auto;
-        width: 225px;
-        padding: 15px 0px;
-        border-radius: 50px;
-        font-weight: 600;
-    }
-
-    .btn-primary {
-        background-color: #4B5092;
-        color: white;
-    }
-
-    .btn-secondary {
-        background-color: white;
-        color: #436BAA;
-    }
-
-    .blue-bg {
-        background-color: #F2F8FF;
-        width: 100%;
-    }
-
-    .gradient-blue-bg {
-        background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
-    }
-
-    .gradient-blue-bg img {
-        margin-bottom: -4.5px;
-    }
-
-    .panel {
-        padding: 60px 40px;
-        margin-bottom: 20px;
-        border-radius: 30px;
-    }
-
-   
-    .panel-blue {
-        background: #E4F0FF;
-    }
-    
-    .panel-purple {
-        background: rgba(114, 122, 239, 0.1);
-    }
-
-    .footer-icons {
-        display: flex;
-        justify-content: space-between;
-        margin: 25px auto;
-        width: 45%;
-        
-    }
-
-    .icon-circle {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(128, 173, 245, 0.2);
-        height: 32px;
-        width: 32px;
-        border-radius: 50%;
-    }
-
-    .icon-circle > img {
-        width: 55%;
-    }
-
-    #xopright {
-        margin: 60px 0;
-    }
-
-    
-    /* Modifier Classes -- single style*/
-
-    .tp-80 {
-        padding-top: 80px;
-    }
-
-    .bp-100 {
-        padding-bottom: 100px;
-    }
-
-    .mb-15 {
-        margin-bottom: 15px;
-    }
-
-    .mb-40 {
-        margin-bottom: 40px;
-    }
-
-    .border-bottom {
-        border-bottom: 1px solid black;
-    }
-  
-    </style>
 </head>
 
 
 <body>
-    <div class="top-bar">
-        <h3>Max<span class="header-bold">Strong</span></h3>
-    </div>
+<div class="constrain">
+    <div class="outer-container">
 
-    <div class="content-section-container text-centered bp-100">
-        <img src="https://assets.codepen.io/6060109/workout-vector-1.png" alt="">
-        <h1>The time to get <span class="header-bold">strong</span> has come</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores repellendus aliquam culpa perspiciatis dignissimos facere! Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        <a class="btn btn-primary" href="#">Contact Us</a>
-    </div>
-
-    <div class="content-section-container">
-        <img src="https://assets.codepen.io/6060109/workout-vector-2.png" alt="">
-    </div>
-    <div class="blue-bg">
-        <div class="content-section-container">
-             <h2>Choose loads <span class="header-bold">for yourself</span></h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis earum itaque impedit, animi velit magni dolorem nulla consequuntur, debitis porro repellendus iste fugit aut explicabo nisi. Enim consequatur repudiandae doloremque!</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, maiores vero est laboriosam earum labore eos sequi quidem facere at, quibusdam quisquam animi, ea provident odit magni odio asperiores saepe.</p>
+        <div class="top-bar">
+            <h3>Max<span class="header-bold">Strong</span></h3>
+            <ul class="top-menu">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li><img src="https://assets.codepen.io/6060109/icon-search.png" alt=""></li>
+            </ul>
         </div>
-    </div>
+
+        <div class="content-section-container text-centered bp-100 hero-section">
+            <img src="https://assets.codepen.io/6060109/workout-vector-1.png" alt="">
+
+            <div class="hero-text">
+                <h1>The time to get <span class="header-bold">strong</span> has come</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores repellendus aliquam culpa perspiciatis dignissimos facere! Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a class="btn btn-primary" href="#">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="left-to-right">
+            <div class="content-section-container workout-img-2">
+                <img src="https://assets.codepen.io/6060109/workout-vector-2.png" alt="">
+            </div>
+            <div class="blue-bg">
+                <div class="content-section-container">
+                    <h2>Choose loads <span class="header-bold">for yourself</span></h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis earum itaque impedit, animi velit magni dolorem nulla!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, maiores vero est laboriosam earum labore eos sequi saepe.</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
     <div class="bp-100"></div>
 
     <div class="gradient-blue-bg">
-        <div class="content-section-container text-centered tp-80">
+        <div class="content-section-container text-centered tp-80 trainer-text">
             <h2 class="header-bold">Alexander Arnold</h2>
             <h6>35 y.o. // 10 years experience</h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur commodi adipisci tenetur fuga unde corrupti ex, sed libero, ducimus magni autem numquam minus temporibus inventore debitis dignissimos, modi repellendus vel.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, doloribus vero! Id ex quam facilis quasi accusantium perferendis numquam. Ipsam hic rem laborum error sequi repellat in necessitatibus iste numquam?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur commodi adipisci tenetur fuga unde corrupti ex, sed libero</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, doloribus vero! Id ex quam facilis quasi accusantium perferendis numquam?</p>
             <a class="btn btn-secondary" href="#">Sign up for training</a>
         </div>
         <img src="https://assets.codepen.io/6060109/trainer.png" alt="">
@@ -242,66 +66,87 @@
 
     <div class="bp-100"></div>
 
-    <div class="content-section-container border-bottom">
-        <img src="https://assets.codepen.io/6060109/workout-vector-3.png" alt="">
-        <h2 class="mb-40"><span class="header-bold">The benefits</span> of exercise</h2>
-        <div class="panel panel-blue">
-            <h5>Increases business flexibility</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi rem soluta totam dignissimos at incidunt debitis voluptatem ullam! Laboriosam, atque fuga.</p>
-        </div>  
+    <div class="outer-container">
+        <div class="content-section-container border-bottom benefits-container">
 
-        <div class="panel panel-purple">
-            <h5>Improves mental heath</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi rem soluta totam dignissimos at incidunt debitis voluptatem ullam! Laboriosam, atque fuga.</p>
+            <div class="flex">
+                <h2 class="desktop-only mb-40"><span class="header-bold">The benefits</span> of exercise</h2>
+                <a class="btn btn-primary desktop-only" href="#">Get now</a>
+            </div>
+
+            <div class="panels-image-container">
+                <img src="https://assets.codepen.io/6060109/workout-vector-3.png" alt="">
+
+                <h2 class="mobile-only mb-40"><span class="header-bold">The benefits</span> of exercise</h2>
+
+                <div class="panels-container">
+                        <div class="panel panel-blue">
+                            <h5>Increases business flexibility</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>  
+
+                        <div class="panel panel-purple">
+                            <h5>Improves mental heath</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+
+                        <div class="panel panel-purple">
+                            <h5>Provides more energy throughout the day</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+
+                        <div class="panel panel-blue">
+                            <h5>Helps to find new friends</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                </div>
+            </div>
+
+            <a class="btn btn-primary mobile-only" href="#">Get now</a>
         </div>
+    
 
-        <div class="panel panel-purple">
-            <h5>Provides more energy throughout the day</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi rem soluta totam dignissimos at incidunt debitis voluptatem ullam! Laboriosam, atque fuga.</p>
-        </div>
+        <footer class="content-section-container text-centered ">
+                <h3>Max<span class="header-bold">Strong</span></h3>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                    <li>Our trainings</li>
+                    <li>Price</li>
+                    <li>FAQ</li>
+                </ul>
 
-        <div class="panel panel-blue">
-            <h5>Helps to find new friends</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi rem soluta totam dignissimos at incidunt debitis voluptatem ullam! Laboriosam, atque fuga.</p>
-        </div>
+            <div class="stay-up-to-date">
+                <h6 class="mb-15 "><span class="header-bold">Stay up to date</span></h6>
+                <input type="text" placeholder="Your email address">
+            </div>
 
-        <a class="btn btn-primary" href="#">Get now</a>
+            <div class="footer-icons">
+                <div class="icon-circle">
+                    <img src="https://assets.codepen.io/6060109/icon-instagram.png" alt="">
+                </div>
+
+                <div class="icon-circle">
+                    <img src="https://assets.codepen.io/6060109/icon-dribbble.png" alt="">
+                </div>
+
+                <div class="icon-circle">
+                    <img src="https://assets.codepen.io/6060109/icon-twitter.png" alt="">
+                </div>
+
+                <div class="icon-circle">
+                    <img src="https://assets.codepen.io/6060109/icon-youtube.png" alt="">
+                </div>
+            </div>
+
+            
+                
+        </footer>
+
+            <p id="copright">&copy Copyright &copy  2025 MaxStrong</p>
     </div>
-
-    <div class="content-section-container text-centered panel-blue">
-        <h3>Max<span class="header-bold">Strong</span></h3>
-        <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact</li>
-            <li>Our trainings</li>
-            <li>Price</li>
-            <li>FAQ</li>
-        </ul>
-        <h6 class="mb-15 "><span class="header-bold">Stay up to date</span></h6>
-        <input type="text" placeholder="Your email address">
-
-    <div class="footer-icons">
-        <div class="icon-circle">
-            <img src="https://assets.codepen.io/6060109/icon-instagram.png" alt="">
-        </div>
-
-        <div class="icon-circle">
-            <img src="https://assets.codepen.io/6060109/icon-dribbble.png" alt="">
-        </div>
-
-        <div class="icon-circle">
-            <img src="https://assets.codepen.io/6060109/icon-twitter.png" alt="">
-        </div>
-
-        <div class="icon-circle">
-            <img src="https://assets.codepen.io/6060109/icon-youtube.png" alt="">
-        </div>
-    </div>
-
-        <p id="copright">&copy Copyright &copy  2025 MaxStrong</p>
-        
-    </div>
+</div>
      
 
 </body>
