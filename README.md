@@ -5,7 +5,7 @@
 
 ![firstSectionMobile](https://github.com/user-attachments/assets/d669a52d-68ac-4d7e-969e-12a8f72075cb)
 
-<h3>Section Section:</h3>
+<h3>Second Section:</h3>
 
 ![secondSectionMobile](https://github.com/user-attachments/assets/e96e82a4-f0d7-4be9-8fd9-5ce91a6b763d)
 
